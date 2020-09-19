@@ -7,6 +7,7 @@ Study 내용은 클래스형 컴포넌트로 개념을 잡고 함수형 컴포�
 [벨로퍼트와 함께하는 모던 리액트](https://react.vlpt.us/)
 
 Do it! 리액트 프로그래밍 정석
+
 ![enter image description here](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/6ba40984-d25f-4e13-8ad3-909aecb26094/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5/20200919/us-west-2/s3/aws4_request&X-Amz-Date=20200919T074728Z&X-Amz-Expires=86400&X-Amz-Signature=1050b5c06756a400ae5ab5d6a40d0f6e36b81e5a0ec64e31e5bf54d7641ecda8&X-Amz-SignedHeaders=host&response-content-disposition=filename%20=%22Untitled.png%22)
 
 # 학습 리스트
