@@ -1,13 +1,12 @@
 import React from 'react';
-import ChildProperty from './03/ChildProperty';
+import TodoList from './03/TodoList';
 
-function App() {
+const App = () => {
   return (
-    //
     <>
-      <ChildProperty>나는 자식입니다.</ChildProperty>
+      <TodoList />
     </>
   );
-}
+};
 
 export default App;
