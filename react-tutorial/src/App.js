@@ -1,12 +1,8 @@
 import React from 'react';
-import TodoList from './03/TodoList';
+import ChildProperty from './03/ChildProperty';
 
-const App = () => {
-  return (
-    <>
-      <TodoList />
-    </>
-  );
-};
+function App() {
+  return <ChildProperty>Hello, React</ChildProperty>;
+}
 
 export default App;
