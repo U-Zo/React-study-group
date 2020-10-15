@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { useEffect } from 'react';
 import styled from 'styled-components';
 import SendMessage from './SendMessage';
 
@@ -12,13 +13,26 @@ const StyledChatting = styled.div`
   font-size: 1.1rem;
 `;
 
+const ChattingBoxWrapper = styled.div`
+  height: 600px;
+  overflow: auto;
+`;
+
+const MessageBoxWrapper = styled.div`
+  height: auto;
+  box-sizing: border-box;
+`;
+
 const MessageBox = styled.div`
+  display: inline-block;
+  word-break: break-all;
   border: 1px solid #ddd;
   border-radius: 10px;
   box-sizing: border-box;
   margin: 1rem;
   max-width: 60%;
   padding: 1rem;
+  width: auto;
 `;
 
 const HeaderBox = styled.div`
@@ -32,9 +46,11 @@ const HeaderBox = styled.div`
 
 const Message = ({ user, message }) => {
   return (
-    <MessageBox>
-      {user}: {message}
-    </MessageBox>
+    <MessageBoxWrapper>
+      <MessageBox>
+        {user}: {message}
+      </MessageBox>
+    </MessageBoxWrapper>
   );
 };
 
@@ -56,12 +72,16 @@ const ChattingBox = ({ user }) => {
     ]);
   };
 
+  useEffect(() => {});
+
   return (
     <StyledChatting>
       <HeaderBox>채팅방</HeaderBox>
-      {chatLog.map((chat) => (
-        <Message user={chat.user} message={chat.message} />
-      ))}
+      <ChattingBoxWrapper>
+        {chatLog.map((chat) => (
+          <Message user={chat.user} message={chat.message} />
+        ))}
+      </ChattingBoxWrapper>
       <SendMessage addMessage={addMessage} />
     </StyledChatting>
   );
