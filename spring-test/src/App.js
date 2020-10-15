@@ -6,15 +6,16 @@ import { hello } from './lib/api/hello';
 const App = () => {
   const [message, setMessage] = useState();
 
+  const response = async () => {
+    const res = await hello();
+    console.log(res);
+
+    setMessage(res.data);
+  };
+
   useEffect(() => {
-    const response = async () => {
-      const res = await hello();
-
-      setMessage(res.data);
-    };
-
     response();
-  });
+  }, []);
 
   return (
     <div className="App">
