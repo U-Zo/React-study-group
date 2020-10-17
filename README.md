@@ -23,6 +23,8 @@ Do it! 리액트 프로그래밍 정석
 - [ ] [리액트 주요 ES6 문법](https://velog.io/@crackco/series/%EC%A7%9A%EB%8B%A4-ES6)
 - [x] [리액트 실행, JSX](https://velog.io/@crackco/React-%EB%A6%AC%EC%95%A1%ED%8A%B8%EC%9D%98-%EC%8B%A4%ED%96%89)
 - [x] [props와 state](https://velog.io/@crackco/React-props%EC%99%80-state)
+- [x] [Lifecycle (생명주기)](https://velog.io/@crackco/React-%EC%83%9D%EB%AA%85%EC%A3%BC%EA%B8%B0Lifecycle#%EB%A6%AC%EC%95%A1%ED%8A%B8-%EC%BB%B4%ED%8F%AC%EB%84%8C%ED%8A%B8%EC%9D%98-%EC%83%9D%EB%AA%85%EC%A3%BC%EA%B8%B0)
+- [x] [함수형 컴포넌트, useState](https://velog.io/@crackco/React-%ED%95%A8%EC%88%98%ED%98%95-%EC%BB%B4%ED%8F%AC%EB%84%8C%ED%8A%B8-useState)
 
 ## 그룹원 Blog
 
