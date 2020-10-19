@@ -6,9 +6,10 @@ import * as serviceWorker from './serviceWorker';
 import { createStore } from 'redux';
 import rootReducer from './modules';
 import { Provider } from 'react-redux';
+import { composeWithDevTools } from 'redux-devtools-extension';
 
 // rootReducer로 store 만들기
-const store = createStore(rootReducer);
+const store = createStore(rootReducer, composeWithDevTools());
 
 // Provider 컴포넌트는 store를 하위 컴포넌트에다가 뿌려주는 역할
 ReactDOM.render(
