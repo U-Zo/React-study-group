@@ -10,8 +10,6 @@ Study 내용은 클래스형 컴포넌트로 개념을 잡고 함수형 컴포�
 
 Do it! 리액트 프로그래밍 정석
 
-![](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/6ba40984-d25f-4e13-8ad3-909aecb26094/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20201011%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20201011T140112Z&X-Amz-Expires=86400&X-Amz-Signature=313e9a7093659692942a374f980533371ed4d19991cf682594bfd5e40a55d56b&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22)
-
 ## 학습 리스트
 
 각 리스트는 진행한 내용의 블로그 링크가 걸려있습니다.
@@ -25,6 +23,7 @@ Do it! 리액트 프로그래밍 정석
 - [x] [props와 state](https://velog.io/@crackco/React-props%EC%99%80-state)
 - [x] [Lifecycle (생명주기)](https://velog.io/@crackco/React-%EC%83%9D%EB%AA%85%EC%A3%BC%EA%B8%B0Lifecycle#%EB%A6%AC%EC%95%A1%ED%8A%B8-%EC%BB%B4%ED%8F%AC%EB%84%8C%ED%8A%B8%EC%9D%98-%EC%83%9D%EB%AA%85%EC%A3%BC%EA%B8%B0)
 - [x] [함수형 컴포넌트, useState](https://velog.io/@crackco/React-%ED%95%A8%EC%88%98%ED%98%95-%EC%BB%B4%ED%8F%AC%EB%84%8C%ED%8A%B8-useState)
+- [x] [Redux](https://velog.io/@crackco/React-Redux-8cwn7msz#)
 
 ## 그룹원 Blog
 
